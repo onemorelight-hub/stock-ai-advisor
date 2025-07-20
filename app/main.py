@@ -10,10 +10,10 @@ import yfinance as yf
 from fpdf import FPDF
 from uuid import uuid4
 import ta
+import io
 
 # Setup logging
-# logging.basicConfig(level=logging.INFO, filename="stock_forecast.log", format="%(asctime)s - %(levelname)s - %(message)s")
-
+logging.basicConfig(level=logging.INFO, filename="stock_forecast.log", format="%(asctime)s - %(levelname)s - %(message)s")
 
 # Streamlit configuration
 st.set_page_config(page_title="Stock AI Advisor", layout="wide", initial_sidebar_state="expanded")
@@ -34,19 +34,24 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 st.title("📈 Stock AI Advisor")
-st.markdown("**Advanced stock price forecasting. Upload your data to get started.**")
+st.markdown("**Advanced stock price forecasting. Upload your data or fetch from Yahoo Finance to get started.**")
 st.markdown("**Expected CSV Format**: Columns `Date`, `Price`, `Vol.` from Investing.com (10 years of data recommended).")
 
-# NIFTY 50 tickers
-NIFTY_50 = [
-    'RELIANCE.NS', 'TCS.NS', 'HDFCBANK.NS', 'INFY.NS', 'HINDUNILVR.NS', 'ICICIBANK.NS', 'KOTAKBANK.NS', 'SBIN.NS', 
-    'BAJFINANCE.NS', 'BHARTIARTL.NS', 'ASIANPAINT.NS', 'ITC.NS', 'AXISBANK.NS', 'DMART.NS', 'HCLTECH.NS', 'MARUTI.NS', 
-    'TITAN.NS', 'ULTRACEMCO.NS', 'NESTLEIND.NS', 'SUNPHARMA.NS', 'BAJAJFINSV.NS', 'LT.NS', 'TECHM.NS', 'WIPRO.NS', 
-    'INDUSINDBK.NS', 'ADANIPORTS.NS', 'POWERGRID.NS', 'NTPC.NS', 'HDFCLIFE.NS', 'SBILIFE.NS', 'DIVISLAB.NS', 
-    'BRITANNIA.NS', 'JSWSTEEL.NS', 'TATASTEEL.NS', 'GRASIM.NS', 'CIPLA.NS', 'EICHERMOT.NS', 'SHREECEM.NS', 
-    'HEROMOTOCO.NS', 'DRREDDY.NS', 'TATACONSUM.NS', 'BPCL.NS', 'ONGC.NS', 'COALINDIA.NS', 'IOC.NS', 'HINDALCO.NS', 
-    'UPL.NS', 'GAIL.NS', 'ADANIENT.NS', 'NHPC.NS'
-]
+# Sector to stock mapping for Indian stocks
+SECTOR_STOCKS = {
+    "Technology": ['TCS.NS', 'INFY.NS', 'HCLTECH.NS', 'WIPRO.NS', 'TECHM.NS'],
+    "Financials": ['HDFCBANK.NS', 'ICICIBANK.NS', 'KOTAKBANK.NS', 'SBIN.NS', 'BAJFINANCE.NS', 'AXISBANK.NS', 'HDFCLIFE.NS', 'SBILIFE.NS', 'BAJAJFINSV.NS', 'INDUSINDBK.NS'],
+    "Consumer Goods": ['HINDUNILVR.NS', 'ITC.NS', 'NESTLEIND.NS', 'BRITANNIA.NS', 'TATACONSUM.NS'],
+    "Automobile": ['MARUTI.NS', 'EICHERMOT.NS', 'HEROMOTOCO.NS'],
+    "Energy": ['BPCL.NS', 'ONGC.NS', 'IOC.NS', 'GAIL.NS', 'NHPC.NS'],
+    "Metals & Mining": ['TATASTEEL.NS', 'JSWSTEEL.NS', 'HINDALCO.NS', 'COALINDIA.NS'],
+    "Pharmaceuticals": ['SUNPHARMA.NS', 'DIVISLAB.NS', 'CIPLA.NS', 'DRREDDY.NS'],
+    "Infrastructure & Cement": ['ULTRACEMCO.NS', 'SHREECEM.NS', 'GRASIM.NS', 'ADANIPORTS.NS'],
+    "Telecom": ['BHARTIARTL.NS'],
+    "Retail & Paints": ['DMART.NS', 'ASIANPAINT.NS'],
+    "Chemicals & Agriculture": ['UPL.NS'],
+    "Diversified": ['ADANIENT.NS']
+}
 
 @st.cache_data
 def preprocess_data(df, ticker):
@@ -314,7 +319,6 @@ def backtest_model(df, periods, timeframe_years, timeframe, cagr_cap):
         logging.error(f"Backtest error: {str(e)}")
         return None, None, None
 
-
 def vote_final_action(decisions, technicals):
     """Determine final investment action based on trend votes and technical indicators."""
     vote = {"Buy": 0, "Sell": 0, "Hold": 0}
@@ -429,6 +433,10 @@ st.sidebar.markdown("### 📈 Stock AI Advisor")
 st.sidebar.markdown("**Developed by Anjan Jana**")
 st.sidebar.markdown("<a href='mailto:link2anjan@gmail.com'>**Email: link2anjan@gmail.com**</a>", unsafe_allow_html=True)
 
+# Initialize session state for file upload
+if 'uploaded_file_data' not in st.session_state:
+    st.session_state.uploaded_file_data = None
+
 data_source = st.sidebar.radio("Choose data source", ["Upload CSV", "Fetch from Yahoo Finance"])
 
 uploaded_file = None
@@ -439,15 +447,31 @@ if data_source == "Upload CSV":
     st.sidebar.markdown("Upload a CSV with 10 years of stock data.")
     st.sidebar.markdown("**Required columns**: Date (or similar), Price/Close, Vol./Volume <span class='tooltip'>ⓘ<span class='tooltiptext'>Date in DD-MM-YYYY or similar, Price as numeric, Volume as numeric or with K/M/B suffixes.</span></span>", unsafe_allow_html=True)
     uploaded_file = st.file_uploader("Choose CSV file", type=["csv"], help="Ensure CSV has Date, Price, and optionally Volume columns.")
+    
+    if uploaded_file is not None:
+        try:
+            # Read file into memory and store in session state
+            file_content = uploaded_file.read()
+            st.session_state.uploaded_file_data = file_content
+            uploaded_file.seek(0)  # Reset file pointer
+            logging.info(f"Successfully uploaded file: {uploaded_file.name}")
+        except Exception as e:
+            logging.error(f"File upload error: {str(e)}")
+            st.sidebar.error(f"Error reading file: {str(e)}. Please try uploading again.")
+            st.session_state.uploaded_file_data = None
+    
     ticker_input = st.sidebar.text_input("Enter ticker for CSV (e.g., NHPC.NS)", value="NHPC.NS")
     if ticker_input and not ticker_input.endswith('.NS'):
         st.sidebar.error("Ticker must end with .NS for Indian stocks.")
     else:
         ticker = ticker_input.strip() if ticker_input else ""
 else:
-    st.sidebar.markdown("Select or enter an Indian stock ticker (.NS) from Yahoo Finance.")
-    ticker_select = st.sidebar.selectbox("Select from NIFTY 50", [""] + NIFTY_50, index=0)
+    st.sidebar.markdown("Select a sector and stock ticker from Yahoo Finance.")
+    sector = st.sidebar.selectbox("Select Sector", [""] + list(SECTOR_STOCKS.keys()))
+    ticker_options = SECTOR_STOCKS.get(sector, []) if sector else []
+    ticker_select = st.sidebar.selectbox("Select Stock Ticker", [""] + ticker_options, index=0)
     ticker_manual = st.sidebar.text_input("Or enter ticker (e.g., NHPC.NS)", value="")
+    years = st.sidebar.slider("Years of data", min_value=1, max_value=20, value=10)
     submit_button = st.sidebar.button("Submit")
     
     if submit_button:
@@ -462,13 +486,19 @@ else:
                 ticker = ticker_manual.strip()
         if not ticker:
             st.sidebar.error("Please select or enter a valid ticker.")
-        years = st.sidebar.slider("Years of data", min_value=1, max_value=20, value=10)
 
-if (uploaded_file and ticker) or (data_source == "Fetch from Yahoo Finance" and ticker and submit_button):
+if (data_source == "Upload CSV" and uploaded_file and ticker and st.session_state.uploaded_file_data) or (data_source == "Fetch from Yahoo Finance" and ticker and submit_button):
     ticker_results = {}
     with st.spinner(f"Processing data for {ticker}..."):
         if data_source == "Upload CSV":
-            raw_df = pd.read_csv(uploaded_file)
+            try:
+                # Read from session state
+                raw_df = pd.read_csv(io.BytesIO(st.session_state.uploaded_file_data))
+                logging.info(f"Successfully read CSV for {ticker} from session state")
+            except Exception as e:
+                logging.error(f"Error reading CSV from session state for {ticker}: {str(e)}")
+                st.error(f"Error processing uploaded file for {ticker}: {str(e)}. Please try uploading again.")
+                st.stop()
         else:
             raw_df = fetch_yfinance_data(ticker, years)
             if raw_df is None:
@@ -572,6 +602,6 @@ if (uploaded_file and ticker) or (data_source == "Fetch from Yahoo Finance" and 
 else:
     st.markdown("""
     <div class='info-box'>
-    Please select a data source, upload a CSV file with a valid .NS ticker, or select/enter an Indian stock ticker and click Submit to start the analysis. <span class='tooltip'>ⓘ<span class='tooltiptext'>CSV should include Date, Price/Close, and optionally Vol./Volume columns. Yahoo Finance fetches data for .NS tickers (e.g., NHPC.NS).</span></span>
+    Please select a data source, upload a CSV file with a valid .NS ticker, or select a sector and stock ticker from Yahoo Finance and click Submit to start the analysis. <span class='tooltip'>ⓘ<span class='tooltiptext'>CSV should include Date, Price/Close, and optionally Vol./Volume columns. Yahoo Finance fetches data for .NS tickers (e.g., NHPC.NS).</span></span>
     </div>
     """, unsafe_allow_html=True)

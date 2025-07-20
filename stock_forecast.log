@@ -1,0 +1,664 @@
+2025-07-20 08:58:59,426 - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2025-07-20 08:58:59,542 - DEBUG - Adding TBB (C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\prophet\stan_model\cmdstan-2.33.1\stan\lib\stan_math\lib\tbb) to PATH
+2025-07-20 08:58:59,562 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpbe704kp_\y5cqfyxs.json
+2025-07-20 08:58:59,587 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpbe704kp_\ceo3q90x.json
+2025-07-20 08:58:59,591 - DEBUG - idx 0
+2025-07-20 08:58:59,591 - DEBUG - running CmdStan, num_threads: None
+2025-07-20 08:58:59,591 - DEBUG - CmdStan args: ['C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=39145', 'data', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\y5cqfyxs.json', 'init=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\ceo3q90x.json', 'output', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\prophet_model9ino0xqt\\prophet_model-20250720085859.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-07-20 08:58:59,591 - INFO - Chain [1] start processing
+2025-07-20 08:58:59,653 - INFO - Chain [1] done processing
+2025-07-20 08:59:00,222 - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2025-07-20 08:59:00,336 - DEBUG - TBB already found in load path
+2025-07-20 08:59:00,353 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpbe704kp_\8ikgdyv7.json
+2025-07-20 08:59:00,376 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpbe704kp_\gmbtx1tg.json
+2025-07-20 08:59:00,378 - DEBUG - idx 0
+2025-07-20 08:59:00,378 - DEBUG - running CmdStan, num_threads: None
+2025-07-20 08:59:00,378 - DEBUG - CmdStan args: ['C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=16601', 'data', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\8ikgdyv7.json', 'init=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\gmbtx1tg.json', 'output', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\prophet_model1xs34pe2\\prophet_model-20250720085900.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-07-20 08:59:00,378 - INFO - Chain [1] start processing
+2025-07-20 08:59:00,579 - INFO - Chain [1] done processing
+2025-07-20 08:59:00,696 - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2025-07-20 08:59:00,801 - DEBUG - TBB already found in load path
+2025-07-20 08:59:00,818 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpbe704kp_\vvmv3e8t.json
+2025-07-20 08:59:00,842 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpbe704kp_\_6xhetxc.json
+2025-07-20 08:59:00,844 - DEBUG - idx 0
+2025-07-20 08:59:00,844 - DEBUG - running CmdStan, num_threads: None
+2025-07-20 08:59:00,845 - DEBUG - CmdStan args: ['C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=67889', 'data', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\vvmv3e8t.json', 'init=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\_6xhetxc.json', 'output', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\prophet_model08ws90se\\prophet_model-20250720085900.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-07-20 08:59:00,845 - INFO - Chain [1] start processing
+2025-07-20 08:59:00,902 - INFO - Chain [1] done processing
+2025-07-20 08:59:01,482 - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2025-07-20 08:59:01,587 - DEBUG - TBB already found in load path
+2025-07-20 08:59:01,605 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpbe704kp_\g90i8vvi.json
+2025-07-20 08:59:01,626 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpbe704kp_\gito8dns.json
+2025-07-20 08:59:01,628 - DEBUG - idx 0
+2025-07-20 08:59:01,628 - DEBUG - running CmdStan, num_threads: None
+2025-07-20 08:59:01,628 - DEBUG - CmdStan args: ['C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=3144', 'data', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\g90i8vvi.json', 'init=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\gito8dns.json', 'output', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\prophet_modeln3z76vx6\\prophet_model-20250720085901.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-07-20 08:59:01,628 - INFO - Chain [1] start processing
+2025-07-20 08:59:01,850 - INFO - Chain [1] done processing
+2025-07-20 08:59:01,970 - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2025-07-20 08:59:02,072 - DEBUG - TBB already found in load path
+2025-07-20 08:59:02,090 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpbe704kp_\1hcla9nx.json
+2025-07-20 08:59:02,114 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpbe704kp_\etqcojh8.json
+2025-07-20 08:59:02,119 - DEBUG - idx 0
+2025-07-20 08:59:02,119 - DEBUG - running CmdStan, num_threads: None
+2025-07-20 08:59:02,119 - DEBUG - CmdStan args: ['C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=96378', 'data', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\1hcla9nx.json', 'init=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\etqcojh8.json', 'output', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\prophet_modelchnd540a\\prophet_model-20250720085902.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-07-20 08:59:02,119 - INFO - Chain [1] start processing
+2025-07-20 08:59:02,178 - INFO - Chain [1] done processing
+2025-07-20 08:59:03,300 - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2025-07-20 08:59:03,409 - DEBUG - TBB already found in load path
+2025-07-20 08:59:03,433 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpbe704kp_\b83so9b9.json
+2025-07-20 08:59:03,457 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpbe704kp_\5dq85zjo.json
+2025-07-20 08:59:03,459 - DEBUG - idx 0
+2025-07-20 08:59:03,459 - DEBUG - running CmdStan, num_threads: None
+2025-07-20 08:59:03,459 - DEBUG - CmdStan args: ['C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=75416', 'data', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\b83so9b9.json', 'init=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\5dq85zjo.json', 'output', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\prophet_modellp87jw70\\prophet_model-20250720085903.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-07-20 08:59:03,459 - INFO - Chain [1] start processing
+2025-07-20 08:59:03,669 - INFO - Chain [1] done processing
+2025-07-20 08:59:03,804 - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2025-07-20 08:59:03,911 - DEBUG - TBB already found in load path
+2025-07-20 08:59:03,928 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpbe704kp_\hog_rtkq.json
+2025-07-20 08:59:03,976 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpbe704kp_\48_eediu.json
+2025-07-20 08:59:03,979 - DEBUG - idx 0
+2025-07-20 08:59:03,979 - DEBUG - running CmdStan, num_threads: None
+2025-07-20 08:59:03,979 - DEBUG - CmdStan args: ['C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=82699', 'data', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\hog_rtkq.json', 'init=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\48_eediu.json', 'output', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\prophet_modelo6y3is17\\prophet_model-20250720085903.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-07-20 08:59:03,979 - INFO - Chain [1] start processing
+2025-07-20 08:59:04,353 - INFO - Chain [1] done processing
+2025-07-20 08:59:05,988 - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2025-07-20 08:59:06,106 - DEBUG - TBB already found in load path
+2025-07-20 08:59:06,145 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpbe704kp_\si9lu4gd.json
+2025-07-20 08:59:06,231 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpbe704kp_\ae9vzfoz.json
+2025-07-20 08:59:06,233 - DEBUG - idx 0
+2025-07-20 08:59:06,233 - DEBUG - running CmdStan, num_threads: None
+2025-07-20 08:59:06,234 - DEBUG - CmdStan args: ['C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=1258', 'data', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\si9lu4gd.json', 'init=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\ae9vzfoz.json', 'output', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\prophet_model1_izb96d\\prophet_model-20250720085906.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-07-20 08:59:06,234 - INFO - Chain [1] start processing
+2025-07-20 08:59:06,660 - INFO - Chain [1] done processing
+2025-07-20 08:59:06,864 - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2025-07-20 08:59:06,985 - DEBUG - TBB already found in load path
+2025-07-20 08:59:07,017 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpbe704kp_\35ndfjgt.json
+2025-07-20 08:59:07,107 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpbe704kp_\wvlyn0ni.json
+2025-07-20 08:59:07,110 - DEBUG - idx 0
+2025-07-20 08:59:07,110 - DEBUG - running CmdStan, num_threads: None
+2025-07-20 08:59:07,111 - DEBUG - CmdStan args: ['C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=44854', 'data', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\35ndfjgt.json', 'init=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\wvlyn0ni.json', 'output', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\prophet_modelnmsu73tt\\prophet_model-20250720085907.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-07-20 08:59:07,111 - INFO - Chain [1] start processing
+2025-07-20 08:59:07,762 - INFO - Chain [1] done processing
+2025-07-20 08:59:10,771 - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2025-07-20 08:59:10,882 - DEBUG - TBB already found in load path
+2025-07-20 08:59:10,900 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpbe704kp_\mn9ph5bz.json
+2025-07-20 08:59:10,976 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpbe704kp_\sp37c8zl.json
+2025-07-20 08:59:10,978 - DEBUG - idx 0
+2025-07-20 08:59:10,978 - DEBUG - running CmdStan, num_threads: None
+2025-07-20 08:59:10,978 - DEBUG - CmdStan args: ['C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=97761', 'data', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\mn9ph5bz.json', 'init=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\sp37c8zl.json', 'output', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\prophet_modelx4n_r0of\\prophet_model-20250720085910.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-07-20 08:59:10,978 - INFO - Chain [1] start processing
+2025-07-20 08:59:11,421 - INFO - Chain [1] done processing
+2025-07-20 08:59:11,654 - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2025-07-20 08:59:11,749 - DEBUG - TBB already found in load path
+2025-07-20 08:59:11,771 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpbe704kp_\qn5oqk5z.json
+2025-07-20 08:59:11,893 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpbe704kp_\clrbxc8z.json
+2025-07-20 08:59:11,895 - DEBUG - idx 0
+2025-07-20 08:59:11,895 - DEBUG - running CmdStan, num_threads: None
+2025-07-20 08:59:11,895 - DEBUG - CmdStan args: ['C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=87101', 'data', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\qn5oqk5z.json', 'init=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\clrbxc8z.json', 'output', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\prophet_model907jr3kr\\prophet_model-20250720085911.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-07-20 08:59:11,895 - INFO - Chain [1] start processing
+2025-07-20 08:59:12,722 - INFO - Chain [1] done processing
+2025-07-20 08:59:18,857 - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2025-07-20 08:59:18,958 - DEBUG - TBB already found in load path
+2025-07-20 08:59:18,977 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpbe704kp_\v6lnv8_7.json
+2025-07-20 08:59:19,110 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpbe704kp_\8mdsv_sq.json
+2025-07-20 08:59:19,112 - DEBUG - idx 0
+2025-07-20 08:59:19,112 - DEBUG - running CmdStan, num_threads: None
+2025-07-20 08:59:19,112 - DEBUG - CmdStan args: ['C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=6916', 'data', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\v6lnv8_7.json', 'init=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\8mdsv_sq.json', 'output', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\prophet_modelkrqxygda\\prophet_model-20250720085919.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-07-20 08:59:19,112 - INFO - Chain [1] start processing
+2025-07-20 08:59:19,845 - INFO - Chain [1] done processing
+2025-07-20 08:59:20,259 - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2025-07-20 08:59:20,357 - DEBUG - TBB already found in load path
+2025-07-20 08:59:20,376 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpbe704kp_\icjbtenz.json
+2025-07-20 08:59:20,532 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpbe704kp_\lx52pi_1.json
+2025-07-20 08:59:20,534 - DEBUG - idx 0
+2025-07-20 08:59:20,534 - DEBUG - running CmdStan, num_threads: None
+2025-07-20 08:59:20,534 - DEBUG - CmdStan args: ['C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=32064', 'data', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\icjbtenz.json', 'init=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\lx52pi_1.json', 'output', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\prophet_model7dm9eeir\\prophet_model-20250720085920.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-07-20 08:59:20,535 - INFO - Chain [1] start processing
+2025-07-20 08:59:21,412 - INFO - Chain [1] done processing
+2025-07-20 08:59:32,138 - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2025-07-20 08:59:32,245 - DEBUG - TBB already found in load path
+2025-07-20 08:59:32,269 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpbe704kp_\dhshfm45.json
+2025-07-20 08:59:32,516 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpbe704kp_\btdxla7_.json
+2025-07-20 08:59:32,519 - DEBUG - idx 0
+2025-07-20 08:59:32,519 - DEBUG - running CmdStan, num_threads: None
+2025-07-20 08:59:32,519 - DEBUG - CmdStan args: ['C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=26232', 'data', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\dhshfm45.json', 'init=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\btdxla7_.json', 'output', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\prophet_modelvjy2gz05\\prophet_model-20250720085932.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-07-20 08:59:32,520 - INFO - Chain [1] start processing
+2025-07-20 08:59:33,871 - INFO - Chain [1] done processing
+2025-07-20 08:59:50,377 - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2025-07-20 08:59:50,494 - DEBUG - TBB already found in load path
+2025-07-20 08:59:50,525 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpbe704kp_\mno_xo2w.json
+2025-07-20 08:59:50,772 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpbe704kp_\_jg4xybm.json
+2025-07-20 08:59:50,773 - DEBUG - idx 0
+2025-07-20 08:59:50,773 - DEBUG - running CmdStan, num_threads: None
+2025-07-20 08:59:50,774 - DEBUG - CmdStan args: ['C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=98927', 'data', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\mno_xo2w.json', 'init=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\_jg4xybm.json', 'output', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\prophet_modeli2fkz6sz\\prophet_model-20250720085950.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-07-20 08:59:50,774 - INFO - Chain [1] start processing
+2025-07-20 08:59:52,182 - INFO - Chain [1] done processing
+2025-07-20 09:00:34,783 - INFO - Successfully uploaded file: NHPC Historical Data.csv
+2025-07-20 09:00:34,792 - INFO - Successfully read CSV for NHPC.NS from session state
+2025-07-20 09:00:34,889 - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2025-07-20 09:00:35,015 - DEBUG - TBB already found in load path
+2025-07-20 09:00:35,033 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpbe704kp_\6hocdavo.json
+2025-07-20 09:00:35,069 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpbe704kp_\7de40x77.json
+2025-07-20 09:00:35,072 - DEBUG - idx 0
+2025-07-20 09:00:35,072 - DEBUG - running CmdStan, num_threads: None
+2025-07-20 09:00:35,072 - DEBUG - CmdStan args: ['C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=14186', 'data', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\6hocdavo.json', 'init=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\7de40x77.json', 'output', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\prophet_modelehs6bh78\\prophet_model-20250720090035.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-07-20 09:00:35,072 - INFO - Chain [1] start processing
+2025-07-20 09:00:35,176 - INFO - Chain [1] done processing
+2025-07-20 09:00:35,429 - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2025-07-20 09:00:35,527 - DEBUG - TBB already found in load path
+2025-07-20 09:00:35,543 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpbe704kp_\v40tkfik.json
+2025-07-20 09:00:35,568 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpbe704kp_\yhd07yvq.json
+2025-07-20 09:00:35,570 - DEBUG - idx 0
+2025-07-20 09:00:35,570 - DEBUG - running CmdStan, num_threads: None
+2025-07-20 09:00:35,570 - DEBUG - CmdStan args: ['C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=9605', 'data', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\v40tkfik.json', 'init=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\yhd07yvq.json', 'output', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\prophet_modelya3943_e\\prophet_model-20250720090035.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-07-20 09:00:35,570 - INFO - Chain [1] start processing
+2025-07-20 09:00:35,645 - INFO - Chain [1] done processing
+2025-07-20 09:00:35,763 - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2025-07-20 09:00:35,858 - DEBUG - TBB already found in load path
+2025-07-20 09:00:35,873 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpbe704kp_\v_gj1rtj.json
+2025-07-20 09:00:35,892 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpbe704kp_\czfccisv.json
+2025-07-20 09:00:35,893 - DEBUG - idx 0
+2025-07-20 09:00:35,893 - DEBUG - running CmdStan, num_threads: None
+2025-07-20 09:00:35,893 - DEBUG - CmdStan args: ['C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=7663', 'data', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\v_gj1rtj.json', 'init=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\czfccisv.json', 'output', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\prophet_modelary5uvak\\prophet_model-20250720090035.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-07-20 09:00:35,893 - INFO - Chain [1] start processing
+2025-07-20 09:00:35,956 - INFO - Chain [1] done processing
+2025-07-20 09:00:36,506 - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2025-07-20 09:00:36,620 - DEBUG - TBB already found in load path
+2025-07-20 09:00:36,642 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpbe704kp_\kh_v0i68.json
+2025-07-20 09:00:36,667 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpbe704kp_\c8_4uw4s.json
+2025-07-20 09:00:36,671 - DEBUG - idx 0
+2025-07-20 09:00:36,671 - DEBUG - running CmdStan, num_threads: None
+2025-07-20 09:00:36,671 - DEBUG - CmdStan args: ['C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=2990', 'data', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\kh_v0i68.json', 'init=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\c8_4uw4s.json', 'output', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\prophet_modelvb3b1l8_\\prophet_model-20250720090036.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-07-20 09:00:36,671 - INFO - Chain [1] start processing
+2025-07-20 09:00:36,747 - INFO - Chain [1] done processing
+2025-07-20 09:00:36,886 - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2025-07-20 09:00:36,988 - DEBUG - TBB already found in load path
+2025-07-20 09:00:37,005 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpbe704kp_\406i0gnf.json
+2025-07-20 09:00:37,030 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpbe704kp_\c6tt81g_.json
+2025-07-20 09:00:37,032 - DEBUG - idx 0
+2025-07-20 09:00:37,032 - DEBUG - running CmdStan, num_threads: None
+2025-07-20 09:00:37,032 - DEBUG - CmdStan args: ['C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=28648', 'data', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\406i0gnf.json', 'init=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\c6tt81g_.json', 'output', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\prophet_modelbow5em1h\\prophet_model-20250720090037.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-07-20 09:00:37,032 - INFO - Chain [1] start processing
+2025-07-20 09:00:37,107 - INFO - Chain [1] done processing
+2025-07-20 09:00:38,180 - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2025-07-20 09:00:38,287 - DEBUG - TBB already found in load path
+2025-07-20 09:00:38,304 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpbe704kp_\qtqz2l58.json
+2025-07-20 09:00:38,326 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpbe704kp_\_miowyio.json
+2025-07-20 09:00:38,328 - DEBUG - idx 0
+2025-07-20 09:00:38,328 - DEBUG - running CmdStan, num_threads: None
+2025-07-20 09:00:38,328 - DEBUG - CmdStan args: ['C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=29850', 'data', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\qtqz2l58.json', 'init=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\_miowyio.json', 'output', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\prophet_model_nzarbzn\\prophet_model-20250720090038.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-07-20 09:00:38,328 - INFO - Chain [1] start processing
+2025-07-20 09:00:38,401 - INFO - Chain [1] done processing
+2025-07-20 09:00:38,535 - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2025-07-20 09:00:38,640 - DEBUG - TBB already found in load path
+2025-07-20 09:00:38,657 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpbe704kp_\_cxyj5ce.json
+2025-07-20 09:00:38,709 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpbe704kp_\3u7rk2z4.json
+2025-07-20 09:00:38,711 - DEBUG - idx 0
+2025-07-20 09:00:38,711 - DEBUG - running CmdStan, num_threads: None
+2025-07-20 09:00:38,711 - DEBUG - CmdStan args: ['C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=28427', 'data', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\_cxyj5ce.json', 'init=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\3u7rk2z4.json', 'output', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\prophet_modelu_gzb255\\prophet_model-20250720090038.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-07-20 09:00:38,711 - INFO - Chain [1] start processing
+2025-07-20 09:00:39,052 - INFO - Chain [1] done processing
+2025-07-20 09:00:40,663 - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2025-07-20 09:00:40,763 - DEBUG - TBB already found in load path
+2025-07-20 09:00:40,785 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpbe704kp_\rsw_6qyc.json
+2025-07-20 09:00:40,828 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpbe704kp_\7hswbu6h.json
+2025-07-20 09:00:40,830 - DEBUG - idx 0
+2025-07-20 09:00:40,830 - DEBUG - running CmdStan, num_threads: None
+2025-07-20 09:00:40,830 - DEBUG - CmdStan args: ['C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=90916', 'data', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\rsw_6qyc.json', 'init=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\7hswbu6h.json', 'output', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\prophet_modeldax319n3\\prophet_model-20250720090040.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-07-20 09:00:40,830 - INFO - Chain [1] start processing
+2025-07-20 09:00:41,125 - INFO - Chain [1] done processing
+2025-07-20 09:00:41,304 - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2025-07-20 09:00:41,412 - DEBUG - TBB already found in load path
+2025-07-20 09:00:41,432 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpbe704kp_\fiq320kv.json
+2025-07-20 09:00:41,491 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpbe704kp_\bya7imuz.json
+2025-07-20 09:00:41,494 - DEBUG - idx 0
+2025-07-20 09:00:41,494 - DEBUG - running CmdStan, num_threads: None
+2025-07-20 09:00:41,494 - DEBUG - CmdStan args: ['C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=93803', 'data', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\fiq320kv.json', 'init=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\bya7imuz.json', 'output', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\prophet_modelt4wrw6md\\prophet_model-20250720090041.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-07-20 09:00:41,494 - INFO - Chain [1] start processing
+2025-07-20 09:00:42,107 - INFO - Chain [1] done processing
+2025-07-20 09:00:45,725 - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2025-07-20 09:00:45,843 - DEBUG - TBB already found in load path
+2025-07-20 09:00:45,869 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpbe704kp_\_uj1e8rv.json
+2025-07-20 09:00:45,934 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpbe704kp_\rmgjju5e.json
+2025-07-20 09:00:45,936 - DEBUG - idx 0
+2025-07-20 09:00:45,936 - DEBUG - running CmdStan, num_threads: None
+2025-07-20 09:00:45,936 - DEBUG - CmdStan args: ['C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=17317', 'data', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\_uj1e8rv.json', 'init=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\rmgjju5e.json', 'output', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\prophet_modeld6zntr0y\\prophet_model-20250720090045.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-07-20 09:00:45,936 - INFO - Chain [1] start processing
+2025-07-20 09:00:46,285 - INFO - Chain [1] done processing
+2025-07-20 09:00:46,540 - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2025-07-20 09:00:46,651 - DEBUG - TBB already found in load path
+2025-07-20 09:00:46,675 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpbe704kp_\d1fd0g2x.json
+2025-07-20 09:00:46,783 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpbe704kp_\sflzolin.json
+2025-07-20 09:00:46,786 - DEBUG - idx 0
+2025-07-20 09:00:46,786 - DEBUG - running CmdStan, num_threads: None
+2025-07-20 09:00:46,786 - DEBUG - CmdStan args: ['C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=88437', 'data', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\d1fd0g2x.json', 'init=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\sflzolin.json', 'output', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\prophet_modelpa5fwn5q\\prophet_model-20250720090046.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-07-20 09:00:46,786 - INFO - Chain [1] start processing
+2025-07-20 09:00:47,496 - INFO - Chain [1] done processing
+2025-07-20 09:00:53,077 - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2025-07-20 09:00:53,197 - DEBUG - TBB already found in load path
+2025-07-20 09:00:53,219 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpbe704kp_\kdqk2_0d.json
+2025-07-20 09:00:53,332 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpbe704kp_\rbyiwnlt.json
+2025-07-20 09:00:53,335 - DEBUG - idx 0
+2025-07-20 09:00:53,335 - DEBUG - running CmdStan, num_threads: None
+2025-07-20 09:00:53,335 - DEBUG - CmdStan args: ['C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=47166', 'data', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\kdqk2_0d.json', 'init=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\rbyiwnlt.json', 'output', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\prophet_modeluie_vi8z\\prophet_model-20250720090053.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-07-20 09:00:53,335 - INFO - Chain [1] start processing
+2025-07-20 09:00:54,011 - INFO - Chain [1] done processing
+2025-07-20 09:00:54,419 - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2025-07-20 09:00:54,528 - DEBUG - TBB already found in load path
+2025-07-20 09:00:54,550 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpbe704kp_\4n5fqvsr.json
+2025-07-20 09:00:54,698 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpbe704kp_\lzrp4vtc.json
+2025-07-20 09:00:54,699 - DEBUG - idx 0
+2025-07-20 09:00:54,699 - DEBUG - running CmdStan, num_threads: None
+2025-07-20 09:00:54,700 - DEBUG - CmdStan args: ['C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=3678', 'data', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\4n5fqvsr.json', 'init=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\lzrp4vtc.json', 'output', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\prophet_modelfvqneb3e\\prophet_model-20250720090054.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-07-20 09:00:54,700 - INFO - Chain [1] start processing
+2025-07-20 09:00:55,812 - INFO - Chain [1] done processing
+2025-07-20 09:01:08,059 - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2025-07-20 09:01:08,181 - DEBUG - TBB already found in load path
+2025-07-20 09:01:08,218 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpbe704kp_\uomwpzix.json
+2025-07-20 09:01:08,503 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpbe704kp_\qqj2of8w.json
+2025-07-20 09:01:08,507 - DEBUG - idx 0
+2025-07-20 09:01:08,507 - DEBUG - running CmdStan, num_threads: None
+2025-07-20 09:01:08,509 - DEBUG - CmdStan args: ['C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=72312', 'data', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\uomwpzix.json', 'init=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\qqj2of8w.json', 'output', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\prophet_modelub8koo_h\\prophet_model-20250720090108.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-07-20 09:01:08,509 - INFO - Chain [1] start processing
+2025-07-20 09:01:09,869 - INFO - Chain [1] done processing
+2025-07-20 09:01:26,278 - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2025-07-20 09:01:26,400 - DEBUG - TBB already found in load path
+2025-07-20 09:01:26,426 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpbe704kp_\3_dh6tcn.json
+2025-07-20 09:01:26,668 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpbe704kp_\50zw6wm4.json
+2025-07-20 09:01:26,669 - DEBUG - idx 0
+2025-07-20 09:01:26,670 - DEBUG - running CmdStan, num_threads: None
+2025-07-20 09:01:26,670 - DEBUG - CmdStan args: ['C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=31322', 'data', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\3_dh6tcn.json', 'init=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\50zw6wm4.json', 'output', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\prophet_model47q14om0\\prophet_model-20250720090126.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-07-20 09:01:26,670 - INFO - Chain [1] start processing
+2025-07-20 09:01:27,386 - INFO - Chain [1] done processing
+2025-07-20 09:01:54,782 - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2025-07-20 09:01:54,891 - DEBUG - TBB already found in load path
+2025-07-20 09:01:54,914 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpbe704kp_\o2rosnw_.json
+2025-07-20 09:01:55,131 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpbe704kp_\dc_yhjt4.json
+2025-07-20 09:01:55,133 - DEBUG - idx 0
+2025-07-20 09:01:55,133 - DEBUG - running CmdStan, num_threads: None
+2025-07-20 09:01:55,133 - DEBUG - CmdStan args: ['C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=98038', 'data', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\o2rosnw_.json', 'init=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\dc_yhjt4.json', 'output', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\prophet_modelyc4fzt8q\\prophet_model-20250720090155.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-07-20 09:01:55,133 - INFO - Chain [1] start processing
+2025-07-20 09:01:55,866 - INFO - Chain [1] done processing
+2025-07-20 09:02:34,992 - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2025-07-20 09:02:35,116 - DEBUG - TBB already found in load path
+2025-07-20 09:02:35,140 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpbe704kp_\yedm_7pq.json
+2025-07-20 09:02:35,358 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpbe704kp_\cxx7nvnm.json
+2025-07-20 09:02:35,360 - DEBUG - idx 0
+2025-07-20 09:02:35,360 - DEBUG - running CmdStan, num_threads: None
+2025-07-20 09:02:35,361 - DEBUG - CmdStan args: ['C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=84350', 'data', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\yedm_7pq.json', 'init=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\cxx7nvnm.json', 'output', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpbe704kp_\\prophet_modelcz6_e7m7\\prophet_model-20250720090235.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-07-20 09:02:35,361 - INFO - Chain [1] start processing
+2025-07-20 09:02:36,052 - INFO - Chain [1] done processing
+2025-07-20 10:20:10,153 - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2025-07-20 10:20:10,267 - DEBUG - Adding TBB (C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\prophet\stan_model\cmdstan-2.33.1\stan\lib\stan_math\lib\tbb) to PATH
+2025-07-20 10:20:10,287 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpkbke7dht\ohpkuxjz.json
+2025-07-20 10:20:10,314 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpkbke7dht\eymot_uj.json
+2025-07-20 10:20:10,317 - DEBUG - idx 0
+2025-07-20 10:20:10,317 - DEBUG - running CmdStan, num_threads: None
+2025-07-20 10:20:10,317 - DEBUG - CmdStan args: ['C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=34429', 'data', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\ohpkuxjz.json', 'init=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\eymot_uj.json', 'output', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\prophet_modelvk5ija95\\prophet_model-20250720102010.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-07-20 10:20:10,317 - INFO - Chain [1] start processing
+2025-07-20 10:20:10,680 - INFO - Chain [1] done processing
+2025-07-20 10:20:11,163 - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2025-07-20 10:20:11,270 - DEBUG - TBB already found in load path
+2025-07-20 10:20:11,288 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpkbke7dht\3oei42_k.json
+2025-07-20 10:20:11,312 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpkbke7dht\a0_deib6.json
+2025-07-20 10:20:11,314 - DEBUG - idx 0
+2025-07-20 10:20:11,314 - DEBUG - running CmdStan, num_threads: None
+2025-07-20 10:20:11,314 - DEBUG - CmdStan args: ['C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=85921', 'data', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\3oei42_k.json', 'init=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\a0_deib6.json', 'output', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\prophet_modelsbxv9_ko\\prophet_model-20250720102011.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-07-20 10:20:11,314 - INFO - Chain [1] start processing
+2025-07-20 10:20:11,547 - INFO - Chain [1] done processing
+2025-07-20 10:20:11,673 - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2025-07-20 10:20:11,779 - DEBUG - TBB already found in load path
+2025-07-20 10:20:11,797 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpkbke7dht\rsz0qo1b.json
+2025-07-20 10:20:11,820 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpkbke7dht\pkwgjhac.json
+2025-07-20 10:20:11,822 - DEBUG - idx 0
+2025-07-20 10:20:11,822 - DEBUG - running CmdStan, num_threads: None
+2025-07-20 10:20:11,822 - DEBUG - CmdStan args: ['C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=37052', 'data', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\rsz0qo1b.json', 'init=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\pkwgjhac.json', 'output', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\prophet_model8rhb0zkc\\prophet_model-20250720102011.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-07-20 10:20:11,822 - INFO - Chain [1] start processing
+2025-07-20 10:20:12,182 - INFO - Chain [1] done processing
+2025-07-20 10:20:12,800 - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2025-07-20 10:20:12,913 - DEBUG - TBB already found in load path
+2025-07-20 10:20:12,934 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpkbke7dht\3bypltb0.json
+2025-07-20 10:20:12,955 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpkbke7dht\8ui03lui.json
+2025-07-20 10:20:12,956 - DEBUG - idx 0
+2025-07-20 10:20:12,956 - DEBUG - running CmdStan, num_threads: None
+2025-07-20 10:20:12,956 - DEBUG - CmdStan args: ['C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=87966', 'data', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\3bypltb0.json', 'init=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\8ui03lui.json', 'output', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\prophet_modelfvms3j4j\\prophet_model-20250720102012.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-07-20 10:20:12,956 - INFO - Chain [1] start processing
+2025-07-20 10:20:13,200 - INFO - Chain [1] done processing
+2025-07-20 10:20:13,317 - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2025-07-20 10:20:13,417 - DEBUG - TBB already found in load path
+2025-07-20 10:20:13,432 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpkbke7dht\y9kj8kok.json
+2025-07-20 10:20:13,452 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpkbke7dht\8p6hwo5e.json
+2025-07-20 10:20:13,453 - DEBUG - idx 0
+2025-07-20 10:20:13,453 - DEBUG - running CmdStan, num_threads: None
+2025-07-20 10:20:13,453 - DEBUG - CmdStan args: ['C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=84253', 'data', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\y9kj8kok.json', 'init=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\8p6hwo5e.json', 'output', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\prophet_modelxx3nqilc\\prophet_model-20250720102013.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-07-20 10:20:13,453 - INFO - Chain [1] start processing
+2025-07-20 10:20:13,797 - INFO - Chain [1] done processing
+2025-07-20 10:20:14,850 - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2025-07-20 10:20:14,960 - DEBUG - TBB already found in load path
+2025-07-20 10:20:14,982 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpkbke7dht\kehf9kxu.json
+2025-07-20 10:20:15,003 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpkbke7dht\e1b6rx56.json
+2025-07-20 10:20:15,005 - DEBUG - idx 0
+2025-07-20 10:20:15,005 - DEBUG - running CmdStan, num_threads: None
+2025-07-20 10:20:15,005 - DEBUG - CmdStan args: ['C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=87099', 'data', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\kehf9kxu.json', 'init=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\e1b6rx56.json', 'output', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\prophet_model15wub8a5\\prophet_model-20250720102015.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-07-20 10:20:15,005 - INFO - Chain [1] start processing
+2025-07-20 10:20:15,244 - INFO - Chain [1] done processing
+2025-07-20 10:20:15,363 - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2025-07-20 10:20:15,462 - DEBUG - TBB already found in load path
+2025-07-20 10:20:15,479 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpkbke7dht\hfz620_o.json
+2025-07-20 10:20:15,521 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpkbke7dht\wc29shfk.json
+2025-07-20 10:20:15,523 - DEBUG - idx 0
+2025-07-20 10:20:15,523 - DEBUG - running CmdStan, num_threads: None
+2025-07-20 10:20:15,523 - DEBUG - CmdStan args: ['C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=83625', 'data', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\hfz620_o.json', 'init=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\wc29shfk.json', 'output', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\prophet_modely6kxqp1m\\prophet_model-20250720102015.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-07-20 10:20:15,523 - INFO - Chain [1] start processing
+2025-07-20 10:20:15,801 - INFO - Chain [1] done processing
+2025-07-20 10:20:17,265 - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2025-07-20 10:20:17,366 - DEBUG - TBB already found in load path
+2025-07-20 10:20:17,383 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpkbke7dht\eqlggo1f.json
+2025-07-20 10:20:17,428 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpkbke7dht\q40dloq5.json
+2025-07-20 10:20:17,431 - DEBUG - idx 0
+2025-07-20 10:20:17,431 - DEBUG - running CmdStan, num_threads: None
+2025-07-20 10:20:17,431 - DEBUG - CmdStan args: ['C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=69570', 'data', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\eqlggo1f.json', 'init=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\q40dloq5.json', 'output', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\prophet_model9qn60cl7\\prophet_model-20250720102017.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-07-20 10:20:17,431 - INFO - Chain [1] start processing
+2025-07-20 10:20:17,702 - INFO - Chain [1] done processing
+2025-07-20 10:20:17,860 - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2025-07-20 10:20:17,969 - DEBUG - TBB already found in load path
+2025-07-20 10:20:17,987 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpkbke7dht\rhnkjqwb.json
+2025-07-20 10:20:18,047 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpkbke7dht\6zlg002y.json
+2025-07-20 10:20:18,050 - DEBUG - idx 0
+2025-07-20 10:20:18,050 - DEBUG - running CmdStan, num_threads: None
+2025-07-20 10:20:18,050 - DEBUG - CmdStan args: ['C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=47280', 'data', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\rhnkjqwb.json', 'init=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\6zlg002y.json', 'output', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\prophet_model7pc2rvlm\\prophet_model-20250720102018.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-07-20 10:20:18,050 - INFO - Chain [1] start processing
+2025-07-20 10:20:18,476 - INFO - Chain [1] done processing
+2025-07-20 10:20:21,480 - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2025-07-20 10:20:21,581 - DEBUG - TBB already found in load path
+2025-07-20 10:20:21,600 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpkbke7dht\cdr7ghks.json
+2025-07-20 10:20:21,658 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpkbke7dht\6vuyqs8k.json
+2025-07-20 10:20:21,660 - DEBUG - idx 0
+2025-07-20 10:20:21,660 - DEBUG - running CmdStan, num_threads: None
+2025-07-20 10:20:21,660 - DEBUG - CmdStan args: ['C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=1309', 'data', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\cdr7ghks.json', 'init=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\6vuyqs8k.json', 'output', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\prophet_modela6wmlilt\\prophet_model-20250720102021.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-07-20 10:20:21,660 - INFO - Chain [1] start processing
+2025-07-20 10:20:22,083 - INFO - Chain [1] done processing
+2025-07-20 10:20:22,302 - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2025-07-20 10:20:22,403 - DEBUG - TBB already found in load path
+2025-07-20 10:20:22,422 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpkbke7dht\iybc64id.json
+2025-07-20 10:20:22,520 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpkbke7dht\2hiot9kl.json
+2025-07-20 10:20:22,522 - DEBUG - idx 0
+2025-07-20 10:20:22,522 - DEBUG - running CmdStan, num_threads: None
+2025-07-20 10:20:22,522 - DEBUG - CmdStan args: ['C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=50499', 'data', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\iybc64id.json', 'init=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\2hiot9kl.json', 'output', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\prophet_model2tqijxm3\\prophet_model-20250720102022.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-07-20 10:20:22,522 - INFO - Chain [1] start processing
+2025-07-20 10:20:23,389 - INFO - Chain [1] done processing
+2025-07-20 10:20:29,375 - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2025-07-20 10:20:29,480 - DEBUG - TBB already found in load path
+2025-07-20 10:20:29,499 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpkbke7dht\1ye9bp3o.json
+2025-07-20 10:20:29,626 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpkbke7dht\w4yg58cl.json
+2025-07-20 10:20:29,628 - DEBUG - idx 0
+2025-07-20 10:20:29,629 - DEBUG - running CmdStan, num_threads: None
+2025-07-20 10:20:29,629 - DEBUG - CmdStan args: ['C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=18155', 'data', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\1ye9bp3o.json', 'init=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\w4yg58cl.json', 'output', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\prophet_modelg65m9fry\\prophet_model-20250720102029.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-07-20 10:20:29,629 - INFO - Chain [1] start processing
+2025-07-20 10:20:30,273 - INFO - Chain [1] done processing
+2025-07-20 10:20:30,700 - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2025-07-20 10:20:30,801 - DEBUG - TBB already found in load path
+2025-07-20 10:20:30,822 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpkbke7dht\220mq586.json
+2025-07-20 10:20:30,999 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpkbke7dht\awn6oeq_.json
+2025-07-20 10:20:31,000 - DEBUG - idx 0
+2025-07-20 10:20:31,000 - DEBUG - running CmdStan, num_threads: None
+2025-07-20 10:20:31,001 - DEBUG - CmdStan args: ['C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=56958', 'data', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\220mq586.json', 'init=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\awn6oeq_.json', 'output', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\prophet_model_p41oaeu\\prophet_model-20250720102031.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-07-20 10:20:31,001 - INFO - Chain [1] start processing
+2025-07-20 10:20:32,206 - INFO - Chain [1] done processing
+2025-07-20 10:20:44,717 - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2025-07-20 10:20:44,826 - DEBUG - TBB already found in load path
+2025-07-20 10:20:44,854 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpkbke7dht\7mdid8p_.json
+2025-07-20 10:20:45,103 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpkbke7dht\2ul__hp6.json
+2025-07-20 10:20:45,105 - DEBUG - idx 0
+2025-07-20 10:20:45,106 - DEBUG - running CmdStan, num_threads: None
+2025-07-20 10:20:45,106 - DEBUG - CmdStan args: ['C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=25134', 'data', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\7mdid8p_.json', 'init=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\2ul__hp6.json', 'output', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\prophet_modelz_68ntzt\\prophet_model-20250720102045.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-07-20 10:20:45,106 - INFO - Chain [1] start processing
+2025-07-20 10:20:46,746 - INFO - Chain [1] done processing
+2025-07-20 10:21:03,887 - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2025-07-20 10:21:04,014 - DEBUG - TBB already found in load path
+2025-07-20 10:21:04,039 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpkbke7dht\yyhqnpm0.json
+2025-07-20 10:21:04,271 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpkbke7dht\41ym9397.json
+2025-07-20 10:21:04,274 - DEBUG - idx 0
+2025-07-20 10:21:04,274 - DEBUG - running CmdStan, num_threads: None
+2025-07-20 10:21:04,274 - DEBUG - CmdStan args: ['C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=28485', 'data', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\yyhqnpm0.json', 'init=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\41ym9397.json', 'output', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\prophet_modeliqaahwer\\prophet_model-20250720102104.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-07-20 10:21:04,274 - INFO - Chain [1] start processing
+2025-07-20 10:21:05,833 - INFO - Chain [1] done processing
+2025-07-20 10:21:33,649 - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2025-07-20 10:21:33,754 - DEBUG - TBB already found in load path
+2025-07-20 10:21:33,778 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpkbke7dht\2qzddbgj.json
+2025-07-20 10:21:34,004 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpkbke7dht\x1_eado0.json
+2025-07-20 10:21:34,006 - DEBUG - idx 0
+2025-07-20 10:21:34,006 - DEBUG - running CmdStan, num_threads: None
+2025-07-20 10:21:34,006 - DEBUG - CmdStan args: ['C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=47687', 'data', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\2qzddbgj.json', 'init=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\x1_eado0.json', 'output', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\prophet_model3pw54k0x\\prophet_model-20250720102134.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-07-20 10:21:34,006 - INFO - Chain [1] start processing
+2025-07-20 10:21:35,552 - INFO - Chain [1] done processing
+2025-07-20 10:22:16,377 - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2025-07-20 10:22:16,483 - DEBUG - TBB already found in load path
+2025-07-20 10:22:16,506 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpkbke7dht\rch19s4c.json
+2025-07-20 10:22:16,736 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpkbke7dht\hacbu24w.json
+2025-07-20 10:22:16,738 - DEBUG - idx 0
+2025-07-20 10:22:16,738 - DEBUG - running CmdStan, num_threads: None
+2025-07-20 10:22:16,738 - DEBUG - CmdStan args: ['C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=5657', 'data', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\rch19s4c.json', 'init=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\hacbu24w.json', 'output', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\prophet_model0hpzcx2f\\prophet_model-20250720102216.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-07-20 10:22:16,738 - INFO - Chain [1] start processing
+2025-07-20 10:22:18,342 - INFO - Chain [1] done processing
+2025-07-20 10:28:02,937 - INFO - Successfully uploaded file: NHPC Historical Data.csv
+2025-07-20 10:28:02,947 - INFO - Successfully read CSV for NHPC.NS from session state
+2025-07-20 10:28:03,063 - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2025-07-20 10:28:03,184 - DEBUG - TBB already found in load path
+2025-07-20 10:28:03,202 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpkbke7dht\gkfiqlfd.json
+2025-07-20 10:28:03,226 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpkbke7dht\lt8rvn9h.json
+2025-07-20 10:28:03,233 - DEBUG - idx 0
+2025-07-20 10:28:03,233 - DEBUG - running CmdStan, num_threads: None
+2025-07-20 10:28:03,233 - DEBUG - CmdStan args: ['C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=44111', 'data', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\gkfiqlfd.json', 'init=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\lt8rvn9h.json', 'output', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\prophet_model0rv1ecxu\\prophet_model-20250720102803.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-07-20 10:28:03,234 - INFO - Chain [1] start processing
+2025-07-20 10:28:03,333 - INFO - Chain [1] done processing
+2025-07-20 10:28:03,638 - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2025-07-20 10:28:03,743 - DEBUG - TBB already found in load path
+2025-07-20 10:28:03,765 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpkbke7dht\ehx6iwmy.json
+2025-07-20 10:28:03,791 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpkbke7dht\el2ycz_8.json
+2025-07-20 10:28:03,794 - DEBUG - idx 0
+2025-07-20 10:28:03,794 - DEBUG - running CmdStan, num_threads: None
+2025-07-20 10:28:03,794 - DEBUG - CmdStan args: ['C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=89906', 'data', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\ehx6iwmy.json', 'init=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\el2ycz_8.json', 'output', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\prophet_modeln80696i8\\prophet_model-20250720102803.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-07-20 10:28:03,794 - INFO - Chain [1] start processing
+2025-07-20 10:28:03,865 - INFO - Chain [1] done processing
+2025-07-20 10:28:04,000 - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2025-07-20 10:28:04,101 - DEBUG - TBB already found in load path
+2025-07-20 10:28:04,117 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpkbke7dht\svdkffqt.json
+2025-07-20 10:28:04,139 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpkbke7dht\tuseatyz.json
+2025-07-20 10:28:04,141 - DEBUG - idx 0
+2025-07-20 10:28:04,141 - DEBUG - running CmdStan, num_threads: None
+2025-07-20 10:28:04,141 - DEBUG - CmdStan args: ['C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=96638', 'data', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\svdkffqt.json', 'init=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\tuseatyz.json', 'output', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\prophet_modelwa_km97g\\prophet_model-20250720102804.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-07-20 10:28:04,141 - INFO - Chain [1] start processing
+2025-07-20 10:28:04,210 - INFO - Chain [1] done processing
+2025-07-20 10:28:04,855 - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2025-07-20 10:28:04,966 - DEBUG - TBB already found in load path
+2025-07-20 10:28:04,983 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpkbke7dht\fzt06fqs.json
+2025-07-20 10:28:05,005 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpkbke7dht\mcy0ucqh.json
+2025-07-20 10:28:05,007 - DEBUG - idx 0
+2025-07-20 10:28:05,007 - DEBUG - running CmdStan, num_threads: None
+2025-07-20 10:28:05,007 - DEBUG - CmdStan args: ['C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=54495', 'data', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\fzt06fqs.json', 'init=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\mcy0ucqh.json', 'output', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\prophet_modelfh650ccz\\prophet_model-20250720102805.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-07-20 10:28:05,007 - INFO - Chain [1] start processing
+2025-07-20 10:28:05,079 - INFO - Chain [1] done processing
+2025-07-20 10:28:05,217 - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2025-07-20 10:28:05,322 - DEBUG - TBB already found in load path
+2025-07-20 10:28:05,339 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpkbke7dht\dqvy3stf.json
+2025-07-20 10:28:05,365 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpkbke7dht\3qigzmxl.json
+2025-07-20 10:28:05,367 - DEBUG - idx 0
+2025-07-20 10:28:05,367 - DEBUG - running CmdStan, num_threads: None
+2025-07-20 10:28:05,367 - DEBUG - CmdStan args: ['C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=17280', 'data', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\dqvy3stf.json', 'init=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\3qigzmxl.json', 'output', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\prophet_modeld3yap5hj\\prophet_model-20250720102805.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-07-20 10:28:05,367 - INFO - Chain [1] start processing
+2025-07-20 10:28:05,438 - INFO - Chain [1] done processing
+2025-07-20 10:28:06,457 - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2025-07-20 10:28:06,576 - DEBUG - TBB already found in load path
+2025-07-20 10:28:06,594 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpkbke7dht\bivz2hja.json
+2025-07-20 10:28:06,616 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpkbke7dht\froi297j.json
+2025-07-20 10:28:06,618 - DEBUG - idx 0
+2025-07-20 10:28:06,619 - DEBUG - running CmdStan, num_threads: None
+2025-07-20 10:28:06,619 - DEBUG - CmdStan args: ['C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=80096', 'data', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\bivz2hja.json', 'init=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\froi297j.json', 'output', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\prophet_model_fzucg17\\prophet_model-20250720102806.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-07-20 10:28:06,619 - INFO - Chain [1] start processing
+2025-07-20 10:28:06,694 - INFO - Chain [1] done processing
+2025-07-20 10:28:06,834 - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2025-07-20 10:28:06,932 - DEBUG - TBB already found in load path
+2025-07-20 10:28:06,951 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpkbke7dht\7_024ppl.json
+2025-07-20 10:28:06,996 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpkbke7dht\h65i5ha6.json
+2025-07-20 10:28:06,998 - DEBUG - idx 0
+2025-07-20 10:28:06,999 - DEBUG - running CmdStan, num_threads: None
+2025-07-20 10:28:06,999 - DEBUG - CmdStan args: ['C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=72143', 'data', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\7_024ppl.json', 'init=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\h65i5ha6.json', 'output', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\prophet_model7dp49qz4\\prophet_model-20250720102806.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-07-20 10:28:06,999 - INFO - Chain [1] start processing
+2025-07-20 10:28:07,372 - INFO - Chain [1] done processing
+2025-07-20 10:28:08,972 - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2025-07-20 10:28:09,090 - DEBUG - TBB already found in load path
+2025-07-20 10:28:09,107 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpkbke7dht\k7jfjear.json
+2025-07-20 10:28:09,148 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpkbke7dht\b6vstv4q.json
+2025-07-20 10:28:09,151 - DEBUG - idx 0
+2025-07-20 10:28:09,151 - DEBUG - running CmdStan, num_threads: None
+2025-07-20 10:28:09,151 - DEBUG - CmdStan args: ['C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=72709', 'data', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\k7jfjear.json', 'init=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\b6vstv4q.json', 'output', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\prophet_modelcsyz3xch\\prophet_model-20250720102809.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-07-20 10:28:09,151 - INFO - Chain [1] start processing
+2025-07-20 10:28:09,462 - INFO - Chain [1] done processing
+2025-07-20 10:28:09,651 - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2025-07-20 10:28:09,755 - DEBUG - TBB already found in load path
+2025-07-20 10:28:09,772 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpkbke7dht\p7ttnu37.json
+2025-07-20 10:28:09,840 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpkbke7dht\nhtz3xdq.json
+2025-07-20 10:28:09,842 - DEBUG - idx 0
+2025-07-20 10:28:09,842 - DEBUG - running CmdStan, num_threads: None
+2025-07-20 10:28:09,842 - DEBUG - CmdStan args: ['C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=50513', 'data', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\p7ttnu37.json', 'init=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\nhtz3xdq.json', 'output', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\prophet_modelh_ecgx8z\\prophet_model-20250720102809.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-07-20 10:28:09,842 - INFO - Chain [1] start processing
+2025-07-20 10:28:10,356 - INFO - Chain [1] done processing
+2025-07-20 10:28:13,191 - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2025-07-20 10:28:13,310 - DEBUG - TBB already found in load path
+2025-07-20 10:28:13,326 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpkbke7dht\8x2q9eke.json
+2025-07-20 10:28:13,399 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpkbke7dht\5mzkt5e2.json
+2025-07-20 10:28:13,401 - DEBUG - idx 0
+2025-07-20 10:28:13,401 - DEBUG - running CmdStan, num_threads: None
+2025-07-20 10:28:13,402 - DEBUG - CmdStan args: ['C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=83429', 'data', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\8x2q9eke.json', 'init=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\5mzkt5e2.json', 'output', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\prophet_modelgn99mx42\\prophet_model-20250720102813.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-07-20 10:28:13,402 - INFO - Chain [1] start processing
+2025-07-20 10:28:13,725 - INFO - Chain [1] done processing
+2025-07-20 10:28:13,974 - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2025-07-20 10:28:14,088 - DEBUG - TBB already found in load path
+2025-07-20 10:28:14,117 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpkbke7dht\0a2h0lqt.json
+2025-07-20 10:28:14,209 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpkbke7dht\7hwn8t83.json
+2025-07-20 10:28:14,210 - DEBUG - idx 0
+2025-07-20 10:28:14,210 - DEBUG - running CmdStan, num_threads: None
+2025-07-20 10:28:14,210 - DEBUG - CmdStan args: ['C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=42209', 'data', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\0a2h0lqt.json', 'init=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\7hwn8t83.json', 'output', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\prophet_modelteygh6go\\prophet_model-20250720102814.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-07-20 10:28:14,211 - INFO - Chain [1] start processing
+2025-07-20 10:28:14,875 - INFO - Chain [1] done processing
+2025-07-20 10:28:20,596 - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2025-07-20 10:28:20,715 - DEBUG - TBB already found in load path
+2025-07-20 10:28:20,800 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpkbke7dht\0j2ufpyg.json
+2025-07-20 10:28:20,914 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpkbke7dht\wkzicexe.json
+2025-07-20 10:28:20,919 - DEBUG - idx 0
+2025-07-20 10:28:20,919 - DEBUG - running CmdStan, num_threads: None
+2025-07-20 10:28:20,919 - DEBUG - CmdStan args: ['C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=20079', 'data', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\0j2ufpyg.json', 'init=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\wkzicexe.json', 'output', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\prophet_modelud046xii\\prophet_model-20250720102820.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-07-20 10:28:20,919 - INFO - Chain [1] start processing
+2025-07-20 10:28:21,542 - INFO - Chain [1] done processing
+2025-07-20 10:28:21,917 - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2025-07-20 10:28:22,033 - DEBUG - TBB already found in load path
+2025-07-20 10:28:22,060 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpkbke7dht\ntbjs04a.json
+2025-07-20 10:28:22,222 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpkbke7dht\b2ltxuoj.json
+2025-07-20 10:28:22,223 - DEBUG - idx 0
+2025-07-20 10:28:22,223 - DEBUG - running CmdStan, num_threads: None
+2025-07-20 10:28:22,223 - DEBUG - CmdStan args: ['C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=15595', 'data', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\ntbjs04a.json', 'init=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\b2ltxuoj.json', 'output', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\prophet_modelr85d0kw0\\prophet_model-20250720102822.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-07-20 10:28:22,223 - INFO - Chain [1] start processing
+2025-07-20 10:28:23,208 - INFO - Chain [1] done processing
+2025-07-20 10:28:31,462 - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2025-07-20 10:28:31,561 - DEBUG - TBB already found in load path
+2025-07-20 10:28:31,584 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpkbke7dht\s37wb0xl.json
+2025-07-20 10:28:31,730 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpkbke7dht\_2cacdms.json
+2025-07-20 10:28:31,731 - DEBUG - idx 0
+2025-07-20 10:28:31,732 - DEBUG - running CmdStan, num_threads: None
+2025-07-20 10:28:31,732 - DEBUG - CmdStan args: ['C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=13803', 'data', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\s37wb0xl.json', 'init=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\_2cacdms.json', 'output', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\prophet_model2gkw6huq\\prophet_model-20250720102831.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-07-20 10:28:31,732 - INFO - Chain [1] start processing
+2025-07-20 10:28:32,387 - INFO - Chain [1] done processing
+2025-07-20 10:28:45,827 - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2025-07-20 10:28:45,943 - DEBUG - TBB already found in load path
+2025-07-20 10:28:45,966 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpkbke7dht\duq3zup4.json
+2025-07-20 10:28:46,150 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpkbke7dht\ude4kxen.json
+2025-07-20 10:28:46,153 - DEBUG - idx 0
+2025-07-20 10:28:46,153 - DEBUG - running CmdStan, num_threads: None
+2025-07-20 10:28:46,154 - DEBUG - CmdStan args: ['C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=57309', 'data', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\duq3zup4.json', 'init=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\ude4kxen.json', 'output', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\prophet_modelaid0n6z4\\prophet_model-20250720102846.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-07-20 10:28:46,154 - INFO - Chain [1] start processing
+2025-07-20 10:28:47,054 - INFO - Chain [1] done processing
+2025-07-20 10:29:09,556 - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2025-07-20 10:29:09,690 - DEBUG - TBB already found in load path
+2025-07-20 10:29:09,713 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpkbke7dht\r1on_ntu.json
+2025-07-20 10:29:09,890 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpkbke7dht\z27l687y.json
+2025-07-20 10:29:09,891 - DEBUG - idx 0
+2025-07-20 10:29:09,891 - DEBUG - running CmdStan, num_threads: None
+2025-07-20 10:29:09,891 - DEBUG - CmdStan args: ['C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=10822', 'data', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\r1on_ntu.json', 'init=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\z27l687y.json', 'output', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\prophet_modelw41u7x1m\\prophet_model-20250720102909.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-07-20 10:29:09,891 - INFO - Chain [1] start processing
+2025-07-20 10:29:10,724 - INFO - Chain [1] done processing
+2025-07-20 10:29:42,491 - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2025-07-20 10:29:42,619 - DEBUG - TBB already found in load path
+2025-07-20 10:29:42,648 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpkbke7dht\waqdv_10.json
+2025-07-20 10:29:42,834 - DEBUG - input tempfile: C:\Users\Admin\AppData\Local\Temp\tmpkbke7dht\jqzmfeqr.json
+2025-07-20 10:29:42,836 - DEBUG - idx 0
+2025-07-20 10:29:42,836 - DEBUG - running CmdStan, num_threads: None
+2025-07-20 10:29:42,836 - DEBUG - CmdStan args: ['C:\\Users\\Admin\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=93566', 'data', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\waqdv_10.json', 'init=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\jqzmfeqr.json', 'output', 'file=C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpkbke7dht\\prophet_modelsrwlotvi\\prophet_model-20250720102942.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-07-20 10:29:42,836 - INFO - Chain [1] start processing
+2025-07-20 10:29:43,624 - INFO - Chain [1] done processing
